@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - phonet@localhost" uuid="e399d538-cacc-40ed-bf39-fd4687957571">
+    <database-info product="MySQL" version="5.7.18-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="phonet">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="airport"/>
+      <schema id="3" name="airports"/>
+      <schema id="4" name="angular"/>
+      <schema id="5" name="bookmanager"/>
+      <schema id="6" name="concretepage"/>
+      <schema id="7" name="filedb"/>
+      <schema id="8" name="hiber"/>
+      <schema id="9" name="hibernate_test"/>
+      <schema id="10" name="image"/>
+      <schema id="11" name="information_schema"/>
+      <schema id="12" name="logiston"/>
+      <schema id="13" name="mysql"/>
+      <schema id="14" name="performance_schema"/>
+      <schema id="15" name="restful_api"/>
+      <schema id="16" name="sakila"/>
+      <schema id="17" name="spring-security-tutorial"/>
+      <schema id="18" name="sys"/>
+      <schema id="19" name="taskmanager"/>
+      <schema id="20" name="test"/>
+      <schema id="21" name="testdb"/>
+      <schema id="22" name="webcam"/>
+      <schema id="23" name="websystique"/>
+      <schema id="24" name="world"/>
+      <table id="25" parent="1" name="user_account"/>
+      <column id="26" parent="25" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="27" parent="25" name="cash">
+        <mandatory>1</mandatory>
+        <data-type>double|0</data-type>
+      </column>
+      <column id="28" parent="25" name="date_time">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="29" parent="25" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
